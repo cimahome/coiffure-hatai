@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('tarifs');
 });
+
+//Route::view("tarifs","tarifs");
+
+
+Route::get('tarifs/', function () {
+    return view('tarifs');
+});
+
+Route::view("fab","test");
